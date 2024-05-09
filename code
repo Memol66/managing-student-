@@ -17,9 +17,7 @@
 
 <button onclick="addStudent()">Add Student</button>
 <button onclick="removeStudent()">Remove Student</button>
-
 <hr>
-
 <h2>Student List</h2>
 <ul id="student-list"></ul>
 
@@ -32,7 +30,7 @@ function addStudent() {
     var name = document.getElementById("name").value;
     var grade = parseInt(document.getElementById("grade").value);
     
-    // Create a student object
+    // Create a student object:
     var student = { name: name, grade: grade };
     
     // Add the student to the array
