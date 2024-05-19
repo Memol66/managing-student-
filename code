@@ -6,7 +6,6 @@
 <title>Student Management</title>
 </head>
 <body>
-
 <h1>Student Management System</h1>
 
 <label for="name">Name:</label>
@@ -40,7 +39,7 @@ function addStudent() {
     displayStudents();
 }
 
-// Function to remove a student
+// Function to remove a student.
 function removeStudent() {
     var nameToRemove = prompt("Enter the name of the student to remove:");
     
