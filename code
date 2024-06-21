@@ -39,7 +39,7 @@ function addStudent() {
     displayStudents();
 }
 
-// Function to remove a student.
+// Function to remove a student.0365
 function removeStudent() {
     var nameToRemove = prompt("Enter the name of the student to remove:");
     
