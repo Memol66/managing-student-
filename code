@@ -57,7 +57,7 @@ function removeStudent() {
     displayStudents();
 }
 
-// Function to display students in the list
+// Function to display students in the list000000000000000000
 function displayStudents() {
     var studentList = document.getElementById("student-list");
     studentList.innerHTML = "";
