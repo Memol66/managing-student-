@@ -1,3 +1,4 @@
+// 0
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +58,7 @@ function removeStudent() {
     displayStudents();
 }
 
-// Function to display students in the list000000000000000000
+// Function to display students in the list
 function displayStudents() {
     var studentList = document.getElementById("student-list");
     studentList.innerHTML = "";
